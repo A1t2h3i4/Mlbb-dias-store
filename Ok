@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLBB Diamond Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { width: 50%; margin: auto; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 10px; text-align: center; }
+        .button { background: red; color: white; padding: 10px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>MLBB Diamond Store</h1>
+    <p>Choose your diamond package:</p>
+    <table>
+        <tr>
+            <th>Diamonds</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>100 Diamonds</td>
+            <td>$1.99</td>
+        </tr>
+        <tr>
+            <td>500 Diamonds</td>
+            <td>$8.99</td>
+        </tr>
+        <tr>
+            <td>1000 Diamonds</td>
+            <td>$16.99</td>
+        </tr>
+    </table>
+    <br>
+    <a href="payment.html" class="button">Proceed to Payment</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Methods</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .payment { font-size: 20px; margin: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Payment Methods</h1>
+    <p>Select a payment method to buy diamonds:</p>
+    <div class="payment">💰 GCash: 09XXXXXXXXX</div>
+    <div class="payment">💳 PayPal: paypal.me/yourlink</div>
+    <div class="payment">🏦 Bank Transfer: Bank Name - Account No.</div>
+    <br>
+    <a href="contact.html">Need Help? Contact Us</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>For any issues, contact us:</p>
+    <p>📞 WhatsApp: +1234567890</p>
+    <p>📧 Email: support@mlbbstore.com</p>
+    <p>💬 Facebook: fb.com/yourpage</p>
+    <br>
+    <a href="store.html">Back to Store</a>
+</body>
+</html>
